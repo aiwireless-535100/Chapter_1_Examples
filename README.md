@@ -3,6 +3,7 @@
 The code for Exercise 1.12. Please fill this code to implement the PPO algorithm for MountainCar-vo.
 You may need to install the gym library at first.
 
+Please refer to where you download or clone the path of https://github.com/le-liang/wcmlbook
 
 # How to Run PPO_MountainCar-v0.py
 
@@ -24,7 +25,7 @@ pip3 install --user tensorboardX
 Navigate to the exercise directory and run:
 
 ```bash
-cd /home/iccl813/tvy14/wcmlbook/ch1/Exercise_1.12
+cd /your/path/to/wcmlbook/ch1/Exercise_1.12
 python3 PPO_MountainCar-v0.py
 ```
 
@@ -53,7 +54,7 @@ pip3 install tensorboard
 
 **Step 2 — Launch TensorBoard:**
 ```bash
-~/.local/bin/tensorboard --logdir /home/iccl813/tvy14/wcmlbook/ch1/exp --port 6006
+~/.local/bin/tensorboard --logdir /your/path/to/wcmlbook/ch1/exp --port 6006
 ```
 
 Then open `http://localhost:6006` in your browser.
